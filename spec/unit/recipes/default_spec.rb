@@ -6,7 +6,8 @@
 
 require 'spec_helper'
 
-  context 'When all attributes are default, on CentOS 7.6' do
+describe 'apache::default' do
+    context 'When all attributes are default, on CentOS 7.6' do
     let(:chef_run) do
       # for a complete list of available platforms and versions see:
       # https://github.com/customink/fauxhai/blob/master/PLATFORMS.md

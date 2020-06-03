@@ -1,12 +1,12 @@
 name 'apache'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Sripada Rao'
+maintainer_email 'sripadas@outlook.com'
 license 'All Rights Reserved'
 description 'Installs/Configures apache'
 long_description 'Installs/Configures apache'
 version '0.2.0'
-chef_version '>= 12.14' if respond_to?(:chef_version)
-depends "motd"
+chef_version '>= 13.0
+
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
 # uploaded to a Supermarket.

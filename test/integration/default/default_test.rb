@@ -1,9 +1,7 @@
-# # encoding: utf-8
+# Chef InSpec test for recipe apache::default
 
-# Inspec test for recipe apache::default
-
-# The Inspec reference, with examples and extensive documentation, can be
-# found at http://inspec.io/docs/reference/resources/
+# The Chef InSpec reference, with examples and extensive documentation, can be
+# found at https://docs.chef.io/inspec/resources/
 
 unless os.windows?
   # This is an example test, replace with your own test.
